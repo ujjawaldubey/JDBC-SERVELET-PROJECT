@@ -1,0 +1,43 @@
+@charset "ISO-8859-1";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html body{
+    height: 100%;
+    width: 100%;
+
+    
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+
+}
+.inner-card{
+    width: 40%;
+    background-color: #fff;
+    margin: 2%;
+    padding: 1%;
+    border-radius: 1rem;
+}
+
+
+.list{
+    /* background-color: red; */
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.list ul {
+    display: flex;
+    justify-content: space-around;
+    display: flex;
+    
+}
+.list > ul >li{
+    list-style: none;
+}
